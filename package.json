@@ -4,12 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "rolldown -c rolldown.config.mjs"
+    "build": "rolldown -c rolldown.config.mjs",
+    "info": "envinfo --system --npmPackages rolldown --binaries --browsers"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "dependencies": {
     "rolldown": "^0.12.2"
+  },
+  "devDependencies": {
+    "envinfo": "^7.13.0"
   }
 }
