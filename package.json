@@ -1,0 +1,15 @@
+{
+  "name": "unofficial-rolldown-reproduction-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rolldown -c rolldown.config.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "rolldown": "^0.12.2"
+  }
+}
